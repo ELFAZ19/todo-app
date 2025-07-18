@@ -20,7 +20,7 @@ ini_set('display_errors', 1);
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card shadow">
-                    <div class="card-header bg-primary text-white">
+                    <div class="card-header bg-primary text-white" style ="background-color: #FFC107 !important;">
                         <h3 class="mb-0"><i class="bi bi-check2-circle"></i> Todo App</h3>
                     </div>
                     <div class="card-body">

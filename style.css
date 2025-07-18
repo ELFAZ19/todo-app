@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #FFF8E1; /* light amber background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
 }
@@ -13,31 +13,42 @@ body {
 
 .card-header {
     font-weight: 600;
+    background-color: #FFC107; /* amber header */
+    color: #e9eae9; /* complement text color */
 }
 
 .list-group-item {
     transition: all 0.2s ease;
     margin-bottom: 8px;
     border-radius: 5px !important;
+    background-color: #FFF3E0; /* lighter amber for list background */
+    color: #37474F; /* deep grey-blue for text */
 }
 
 .list-group-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(21, 101, 192, 0.2); /* complement blue shadow */
 }
 
 .list-group-item-success {
-    background-color: rgba(25, 135, 84, 0.05);
+    background-color: rgba(255, 193, 7, 0.1); /* subtle amber highlight */
 }
 
 .text-decoration-line-through {
     text-decoration: line-through;
-    color: #6c757d;
+    color: #90A4AE; /* muted blue-grey for completed tasks */
 }
 
 .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
+    background-color: #1565C0; /* complement blue button */
+    color: white;
+    border: none;
+}
+
+.btn-sm:hover {
+    background-color: #0D47A1; /* darker complement blue on hover */
 }
 
 /* Responsive adjustments */
